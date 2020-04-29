@@ -30,5 +30,15 @@ Host: master.discob.git.masonx.ca
         Template HTML to use for directory listings (default "directory.html")
 ```
 
+## libraries used
 
+`go-git`: Git interface
 
+## how to run
+
+Needs Go 1.11 (modules) support.
+
+```
+export GO111MODULE="on"
+go build github.com/ohnx/discob
+```
